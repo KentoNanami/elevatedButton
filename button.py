@@ -47,6 +47,7 @@ class Button:
 		else:
 			self.dynamic_elecation = self.elevation
 			self.top_color = '#475F77'
+			self.pressed = False
 
 pygame.init()
 screen = pygame.display.set_mode((500,500))
